@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Área cliente</title>
+</head>
+<body>
+    <!-- Parte de cima da página -->
+    <header class="Topo">
+        <!-- Referencia outra página html na imagina (sem botão ou java) -->
+        <a href="landingpage.html">
+            <img id="Perfil" src="imagens/Ícone-Casa-PNG.png" width="40px" height="40px" alt="Seu Perfil">
+        </a>
+        <!-- cria uma divisória, um pedaço(nessa caso a barra de busca) -->
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <img src="imagens/icone-loupe-noir.png" width="30px" height="30px" id="btnBusca" alt="Buscar"/>
+        </div>
+        <img src="imagens/LogoWesternShoe.png" alt="LogoWesternShoe">
+        <div id="CantoDireitoCima">
+            <a href="compras.html">
+                    <img id="CarrinhoDeCompras" src="imagens/Ícone-Carrinho-de-Compras-PNG.png" width="40px" height="40px" alt="CarrinhoDeCompras">
+            </a>
+            <div id="Vazio"><a>KJDKAJDK</a></div>
+            <a href="categoria.html">
+                    <img id="Categoria" src="imagens/Hamburger_icon.svg.png" width="40px" height="40px" alt="Categorias">
+            </a>
+        </div>
+    </header>
+    <!-- Parte central da página -->
+    <main>
+        <center>
+            <!-- Formulário para clientes novos -->
+            <div id="Container">
+                <img src="imagens/Seja-bem-vindo.png" width="400px" height="100px" alt="">
+                <div id="Formulário">
+                    <form>
+                        <!-- DIV do nome e sobrenome -->
+                        <div id="nome">
+                            <h2 class="nome">Nome e Sobrenome</h2>
+                            <input class="primeiroNome" type="text" placeholder="Nome" name="primeiro_nome">
+                            <input class="sobrenome" type="text" placeholder="Sobrenome" name="sobre_nome">
+                        </div>
+                        <h2 class="nome">Nome de usuário</h2>
+                        <input class="usuário" type="text" name="usuário">
+                        <h2 class="nome">E-Mail</h2>
+                        <input class="email" type="text" name="email">
+                        <h2 class="nome">Senha</h2>
+                        <input class="senha" type="password" name="senha">
+                        <br><button id="Enviar" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </center>
+    </main>
+    <!-- Parte debaixo da página, como rodapé -->
+    <footer>
+        
+    </footer>
+</body>
+</html>

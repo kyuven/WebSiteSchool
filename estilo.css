@@ -1,0 +1,300 @@
+/* retira pré definições do css */
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: none;
+}
+
+body {
+    background: #c79a8b;
+}
+
+.Topo {
+    background: #873E3D;
+    height: 55px;
+    /* Design responsivo */
+    display: flex;
+    justify-content: space-between;
+}
+
+#divBusca {
+    display: flex;
+    background-color:#c0907f;
+    border:solid 1px;
+    height:40px;
+    width:300px;
+    margin-top: 5px;
+}
+  
+#txtBusca {
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height: 32px;
+    width:260px;
+}
+
+#Perfil {
+    border: none;
+    background: transparent;
+    position: relative;
+    left: 10px;
+    margin-top: 5px;
+}
+
+#CantoDireitoCima {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Vazio {
+    color: transparent;
+}
+
+#CarrinhoDeCompras {
+    border: none;
+    background: transparent;
+    margin-top: 5px;
+    position: relative;
+}
+
+#Categoria {
+    border: none;
+    background: transparent;
+    right: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.RedesSociais {
+    background-color: #925150;
+    width: 60px;
+    height: 100vh;
+    /* Consigo alocar a outra div do lado dessa */
+    float: left;
+}
+
+.ImagensIcons {
+    position: relative;
+    left: 20px;
+}
+
+/* Imagem de promoção */
+#promoções {
+    margin: auto;
+    margin-top: 40px;
+    /* Faz com que apenas ele seja afetado com o margin (exemplo) */
+    display: inline-block;
+}
+
+/* Configuração para container do formulário */
+#Container {
+    /* Cor da borda */
+    border-color: black;
+    /* Bordinha do canto redondinha */
+    border-radius: 25px;
+    /* Grossura da borda */
+    border-width: 3px;
+    width: 500px;
+    height: 500px;
+    border:solid 1px;
+    box-shadow: 10px 10px 10px 5px rgb(78, 41, 41);
+    background-color: #da9d89;
+    margin-left: 45px;
+    margin-top: 150px;
+}
+
+#imagewelcome {
+    margin-top: 30px;
+}
+
+#Formulário {
+    float: left;
+    padding-left:5px;
+    font-size:18px;
+    align-items: center;
+}
+/* Opções da categoria */
+#Opções {
+    margin: auto;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#CategoriaCarousel {
+    margin: auto;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.nome {
+    color: rgba(121, 22, 22, 0.952);
+    font-size: 25px;
+}
+
+.primeiroNome {
+    position: relative;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 22px;
+    float:left;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+}
+
+.sobrenome {
+    position: relative;
+    /* tamanho de altura da label */
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 22px;
+    padding-left:5px;
+    /* Itálico do placeholder */
+    font-style:italic;
+    /* Tamanho da letra do placeholder */
+    font-size:18px;
+    margin-left: 15px;
+}
+
+.usuário {
+    position: relative;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size:18px;
+}
+
+.email {
+    position: relative;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size:18px;
+}
+
+.senha {
+    position: relative;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size:18px;
+}
+
+#Enviar {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+/* o que acontece quando passa o mouse por cima */
+#Enviar:hover {
+    /* Coloca sombra quando passo o mouse */
+    box-shadow: 0px 15px 20px rgb(112, 31, 25);
+}
+/* fazer os itens numa linha só */
+.container {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 19px;
+}
+
+.container > div {
+    flex: 1 1 200px;
+}
+
+p {
+    color: transparent;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background-color: #000;
+    width: 150px;
+}
+
+.containerpromo {
+    padding: 30px;
+    display: grid;
+    row-gap: 30px;
+}
+
+#vazio {
+    color: transparent;
+}
+
+#Produtos {
+    display: inline;
+}
+
+#estrelas {
+    float: right;
+    margin-right: 150px;
+    margin-top: 35px;
+}
+
+#imagensprod {
+    margin-left: 130px;
+}
+
+.Descrição {
+    float: left;
+    background-color: #bd6d6c;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.Tamanhos {
+    float: left;
+    background-color: #bd6d6c;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Frete {
+    background-color: #bd6d6c;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 493px;
+    height: 234px;
+}
+
+#ADDCar {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #000;
+    background-color: rgb(207, 60, 60);
+    border: none;
+    border-radius: 45px;
+    margin-top: 20px;
+    width: 400px;
+}
+/* o que acontece quando passa o mouse por cima */
+#Enviar:hover {
+    /* Coloca sombra quando passo o mouse */
+    box-shadow: 0px 15px 20px rgb(112, 31, 25);
+}
+
+#Comprar {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #000;
+    background-color: rgb(221, 144, 44);
+    border: none;
+    border-radius: 45px;
+    height: 50px;
+    width: 400px;
+}
